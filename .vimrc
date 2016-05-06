@@ -116,6 +116,7 @@ let g:indent_guides_guide_size = 2
 
 " カーソル移動(\\w or \\b)
 NeoBundle 'Lokaltog/vim-easymotion'
+let g:EasyMotion_leader_key = '<Leader>'
 
 " テキスト編集"
 NeoBundle 't9md/vim-textmanip'
