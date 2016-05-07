@@ -58,7 +58,6 @@ set pumheight=10
 " insertモードから抜ける
 inoremap <silent> jj <ESC>
 
-
 map <silent> <leader>e :NERDTreeToggle<cr>
 """"""""""""""""""""""""""""""
 
@@ -156,6 +155,14 @@ NeoBundle 'open-browser.vim'
 NeoBundle 'scrooloose/nerdtree'
 " The Silver Searcher （高速検索システム）
 NeoBundle 'rking/ag.vim'
+
+NeoBundle 'vim-scripts/taglist.vim'
+"let Tlist_Show_One_File=1
+"let Tlist_Use_Right_Window=1
+"let Tlist_Exit_OnlyWindow=1
+"map <silent> <leader>E :TlistToggle<cr>
+NeoBundle 'majutsushi/tagbar'
+map <silent> <leader>E :TagbarToggle<cr>
 
 "" neocomplcache --------------------------------------
 NeoBundle 'Shougo/neocomplcache'
